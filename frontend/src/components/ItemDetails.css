@@ -1,0 +1,215 @@
+.item-container {   
+    width: 100%;
+    height: 100%;
+}
+
+.item-main {
+    display: flex;
+    /* background-color: blue; */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 4px;
+    z-index: 1;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 40px;
+
+}
+
+.item-stock {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stock {
+    color: #242424;
+    font-size: 1.4em;
+
+}
+
+.item-seller {
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    font-size: 1.3em;
+}
+
+.item-details-img {
+    /* background-color: brown; */
+    flex: 1;
+    text-align: center;
+    /* flex: 0 0 auto; */
+    width: 100%
+    /* max-width: 800px; Set a maximum width to allow shrinking */
+    /* margin-right: 20px; Add spacing between the image and description */
+}
+
+.item-img > img {
+    object-fit: cover;
+    max-width: 500px;
+    width: 80%;
+}
+
+.item-info {
+    flex: 1;
+    /* background-color:orange; */
+}
+
+.item-details-brand > p {
+    font-size: 1.2em;
+    color: #747171;
+    margin: 10px 0;
+}
+
+.item-details-price > p:nth-child(1) {
+    font-size: 1em;
+    color: #747171;
+}
+
+.item-details-price > p:nth-child(2) {
+    font-size: 1.5em;
+}
+
+.item-info-bottom {
+    /* background-color: red; */
+    position: relative;
+    top: 50px;
+}
+
+
+.add-to-cart-btn {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 30px;
+    /* padding-left: 40px; */
+    margin-top: 1em;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 1.2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: rgb(36, 72, 116);
+    cursor: pointer;
+}
+
+.item-reviews-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    
+}
+
+.item-reviews-header {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.item-reviews {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+
+.reviewer-name {
+    font-size: 1.3em;
+}
+
+.item-review {
+    background: rgba(231, 159, 159, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    
+}
+
+.comment {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.show-more-reviews {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.show-more-reviews > button{
+    font-size: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: rgb(36, 72, 116);
+    cursor: pointer;
+}
+
+.show-more-reviews {
+    margin: 20px;
+}
+
+.show-more-content > button {
+    font-size: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    /* border-radius: 15px; */
+    color: rgb(36, 72, 116);
+    cursor: pointer; 
+    margin-top: 5px;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.create-review {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.create-review > h2 {
+    font-size: 1.8em;
+}
+
+.create-rating {
+    font-size: 1.2em;
+}
+
+.create-review > input{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    padding: 20px;
+    width: 80%;
+}
+
+.post-comment-btn {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 30px;
+    /* padding-left: 40px; */
+    margin-top: 1em;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 1.2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: rgb(36, 72, 116);
+}

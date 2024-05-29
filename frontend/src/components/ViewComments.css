@@ -1,0 +1,31 @@
+.view-comments {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.listing {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.reviewer {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.hide-show-button {
+    margin-left: auto;
+}
